@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 6px 10px; /* Menor padding para reduzir o tamanho */
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Ajustar padding para botões menores */
+    margin: 10px 5px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+a {
+    display: inline-block;
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Ajustar padding para botões menores */
+    margin: 10px 5px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #4a148c;
+}
+
+strong {
+    color: #333;
+}
